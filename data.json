@@ -56,6 +56,12 @@
     ],
     "loans": [
         {
+            "book_isbn": "978-0132350884",
+            "member_id": "M001",
+            "loan_date": "2026-05-10",
+            "due_date": "2026-05-24"
+        },
+        {
             "book_isbn": "978-0201616224",
             "member_id": "M001",
             "loan_date": "2026-05-15",
