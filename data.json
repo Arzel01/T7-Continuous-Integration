@@ -1,0 +1,46 @@
+{
+    "members": [
+        {
+        "id": "M001",
+        "name": "Alex Otero"
+        },
+        {
+        "id": "M002",
+        "name": "Kelly Silva"
+        },
+        {
+        "id": "M003",
+        "name": "Ronald Criollo"
+        }
+    ],
+    "books": [
+        {
+        "isbn": "978-0132350884",
+        "title": "Clean Code",
+        "author": "Robert C. Martin"
+        },
+        {
+        "isbn": "978-0201616224",
+        "title": "The Pragmatic Programmer",
+        "author": "Andrew Hunt"
+        },
+        {
+        "isbn": "978-0134494166",
+        "title": "Design Patterns",
+        "author": "Erich Gamma"
+        },
+        {
+        "isbn": "978-1491950296",
+        "title": "Building Microservices",
+        "author": "Sam Newman"
+        }
+    ],
+    "loans": [
+        {
+        "book_isbn": "978-0132350884",
+        "member_id": "M001",
+        "loan_date": "2026-05-25",
+        "due_date": "2026-06-08"
+        }
+    ]
+}
