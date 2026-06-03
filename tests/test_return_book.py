@@ -1,6 +1,6 @@
 """Module for testing the return_book functionality."""
 
-from return_book import return_book
+from features.return_book import return_book
 
 correct_dic = {
     "members": [
