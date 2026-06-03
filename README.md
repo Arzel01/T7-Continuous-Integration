@@ -2,11 +2,11 @@
 
 ## Members 
 
-José Adrián 
-Alex Otero
-Steve Robinson
-Bruno Romero
-Jaren Pazmiño
+- José Adrián 
+- Alex Otero
+- Steve Robinson
+- Bruno Romero
+- Jaren Pazmiño
 
 ## Features
 
