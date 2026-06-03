@@ -43,7 +43,7 @@ def return_book(member_id, book_id):
     with open("data.json", "r", encoding="utf-8") as file:
         loaded_data = json.load(file)
         for loan in loaded_data["loans"]:
-            if loan["book_isbn"] == book_id or loan["member_id"] == member_id:
+            if loan["book_isbn"] == book_id and loan["member_id"] == member_id:
                 loaded_data["loans"].remove(loan)
                 with open("data.json", "w", encoding="utf-8") as file:
                     json.dump(loaded_data, file, indent=4, encoding="utf-8")
