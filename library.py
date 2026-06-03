@@ -1,9 +1,14 @@
-"""Library management module for CaféLibro."""
+"""
+Módulo de gestión de préstamos de la biblioteca CaféLibro.
+Proporciona funciones para cargar, guardar y registrar préstamos
+de libros controlando las reglas de negocio establecidas.
+"""
 import json
 import os
 import argparse
 
 DATA_FILE = 'library_data.json'
+
 
 
 def load_data():
