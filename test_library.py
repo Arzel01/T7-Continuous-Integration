@@ -38,3 +38,4 @@ def test_register_duplicate_member():
         register_member("123", "Jane Smith")
 
     assert "is already registered" in str(excinfo.value)
+    
