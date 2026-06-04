@@ -1,0 +1,10 @@
+[project]
+name = "t7-continuous-integration"
+version = "0.1.0"
+description = "Continuous integration exercises for the T7 project"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
