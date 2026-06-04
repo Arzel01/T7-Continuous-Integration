@@ -60,3 +60,4 @@ jobs:
           TAG_NAME="v$(date +'%Y.%m.%d-%H%M%S')"
           git tag $TAG_NAME
           git push origin $TAG_NAME
+          
