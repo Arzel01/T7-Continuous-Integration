@@ -80,8 +80,8 @@ def print_report(overdue_loans, current_date):
 
 
 if __name__ == "__main__":
-    msg = "CaféLibro Library Loan Manager"
-    parser = argparse.ArgumentParser(description=msg)
+    MSG = "CaféLibro Library Loan Manager"
+    parser = argparse.ArgumentParser(description=MSG)
     parser.add_argument(
         "db_file", help="Path to the library database JSON file"
     )
