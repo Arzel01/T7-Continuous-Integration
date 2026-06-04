@@ -7,7 +7,7 @@ loans, and proper handling of missing database files using pytest fixtures.
 """
 import json
 import pytest
-from list_books import get_member_loans
+from features.list_books import get_member_loans
 
 @pytest.fixture(name="mocked_data_file")
 def fixture_mocked_data_file(tmp_path):
