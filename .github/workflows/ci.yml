@@ -31,7 +31,7 @@ jobs:
 
   release:
     needs: test
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -60,3 +60,4 @@ jobs:
           TAG_NAME="v$(date +'%Y.%m.%d-%H%M%S')"
           git tag $TAG_NAME
           git push origin $TAG_NAME
+          
