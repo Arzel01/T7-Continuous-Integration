@@ -9,9 +9,8 @@ import json
 import pytest
 from list_books import get_member_loans
 
-# --- FIXTURE ---
-@pytest.fixture
-def mocked_data_file(tmp_path):
+@pytest.fixture(name="mocked_data_file")
+def fixture_mocked_data_file(tmp_path):
     """Creates a temporal data.json with controlled test data."""
     test_data = {
         "books": [
@@ -34,7 +33,6 @@ def mocked_data_file(tmp_path):
         json.dump(test_data, f)
     return file_path
 
-# --- TESTS ---
 def test_get_member_loans_with_active_loans(mocked_data_file):
     """Tests if a member with active loans returns the correct list."""
     loans = get_member_loans("M001", data_path=mocked_data_file)
