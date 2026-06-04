@@ -11,7 +11,7 @@ from list_books import get_member_loans
 
 # --- FIXTURE ---
 @pytest.fixture
-def mock_data_file(tmp_path):
+def mocked_data_file(tmp_path):
     """Creates a temporal data.json with controlled test data."""
     test_data = {
         "books": [
